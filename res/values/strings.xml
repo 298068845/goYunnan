@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">com.useease.GoYunnan</string>
+    <string name="btn_start">马上体验</string>
+    <string name="tab1">云南即“彩云之南”“七彩云南”，另一说法是因位于“云岭之南”而得名。下辖8个市、8个少数民族自治州。</string>
+    <string name="tab2">大理古城位于苍山洱海之间的坝区，西倚一字横列的苍山，东濒碧波荡漾的洱海，这种“一水绕苍山，苍山抱古城”的雄秀相间、刚柔并济的山水环境格局，使古城增辉添彩.</string>
+    <string name="tab3">丽江古城，又名“大研古镇”，海拔2,400米，是丽江纳西族自治县的中心城市，是中国历史文化名城之一，世界文化遗产，国家5A级旅游景区，全国文明风景旅游区示范点。</string>
+    <string name="btn_login">登陆</string>
+    <string name="my">我的资料</string>
+    <string name="order">我的订单</string>
+    <string name="shopcar">购物车</string>
+    <string name="travel">我的行程</string>
+    <string name="note">我的游记</string>
+    <string name="collection">我的收藏</string>
+    <string name="report">用户反馈</string>
+    <string name="about">关于软件</string>
+    <string name="register_context">请填写注册手机号码，以获取短信验证码。</string>
+    <string name="agreement">同意去云南注意协议</string>
+    <string name="Verification_context">请输入短验证码：</string>
+    <string name="forgetPassword_context">请输入您的手机号码：</string>
+    <string name="Verification_about">1. 短信验证码15分钟内有效。\n
+2. 若无法接收到短信，请重新获取。</string>
+    <string name="firstPassword">首次输入密码：</string>
+    <string name="secondPassword">确认密码：</string>
+    <string name="prompt">提示：</string>
+    <string name="resetPassword_about">1. 首次输入密码与确认密码必须保持一致。\n
+2. 请妥协保管您的密码。</string>
+    <string name="account">账户</string>
+    <string name="resetPassword">修改密码</string>
+    <string name="my_logo">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="age">年龄</string>
+    <string name="tellphone">电话</string>
+    <string name="address">地址</string>
+
+</resources>
