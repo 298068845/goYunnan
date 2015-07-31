@@ -1,6 +1,7 @@
 package com.useease.goyunnan;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -43,8 +44,10 @@ public class TabBFm extends Fragment{
             public void onClick(View view) {
                 MainActivity activity = ((MainActivity)getActivity());
                 EditText editText = (EditText) activity.fragments.get(0).getView().findViewById(R.id.edit);
-
-                Toast.makeText(activity, activity.hello + editText.getText(), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent();
+                intent.setClass(getActivity(), FoodActivity.class);
+                startActivity(intent);
+                //Toast.makeText(activity, activity.hello + editText.getText(), Toast.LENGTH_SHORT).show();
             }
         });
     }
