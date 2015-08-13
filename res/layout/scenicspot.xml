@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1DDE1"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        
+        <ImageView 
+            android:id="@+id/scenicspotimage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="景点"
+            android:layout_centerVertical="true"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+     
+    
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:background="#ffffff">
+		        <Spinner 
+		            android:id="@+id/scenicspotspinner1"
+		            android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_weight="1"
+		        	android:padding="10dp"/>
+		        <View 
+		            android:layout_width="1dp"
+		        	android:layout_height="55dp"
+		        	android:background="#D1DDE1"/>
+		        <Spinner 
+		            android:id="@+id/scenicspotspinner2"
+		            android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_weight="1"
+		        	android:padding="10dp"/>
+		        <View 
+		            android:layout_width="1dp"
+		        	android:layout_height="55dp"
+		        	android:background="#D1DDE1"/>
+		        <Spinner 
+		            android:id="@+id/scenicspotspinner3"
+		            android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_weight="1"
+		        	android:padding="10dp"/>
+		    </LinearLayout>
+		    
+		    <View 
+		        android:layout_width="wrap_content"
+		        android:layout_height="10dp"/>
+		    
+		    <ListView 
+		        android:id="@+id/scenicspotlist"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:dividerHeight="15dp">
+		        
+		    </ListView>
+		
+</LinearLayout>

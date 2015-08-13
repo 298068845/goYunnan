@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1DDE1"
+    android:orientation="vertical" >
+    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        
+		        android:padding="10dp">
+		        
+		        <ImageView 
+		            android:id="@+id/scenicspotimageactivity1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/ic_launcher"/>
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerHorizontal="true"
+		            android:text="石林"
+		            android:layout_centerVertical="true"
+		            android:textSize="25sp"/>
+		        <ImageView 
+		            android:id="@+id/scenicspotimageactivity2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:src="@drawable/ic_launcher"/>
+		    </RelativeLayout>
+    
+     <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+			
+		    
+		    <ImageView 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:scaleType="fitXY"
+		        android:src="@drawable/t3" />
+		    
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:lineSpacingExtra="5dp"
+		        android:text="云南的石林很有气魄，是昆明最出名的景点，但是门票偏贵,去的时候人太多。不过石林景色优美，空气清新，而且景观很奇特，只是景色略单调，总体而言是个旅游的好地方。"/>
+		    
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="10dp">
+		       
+		        <TextView 
+		            android:id="@+id/scenicspottextactivity1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="门 票 :"/>
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="175"
+		            android:layout_marginLeft="5dp"
+		            android:textColor="#ff0000"
+		            android:layout_toRightOf="@+id/scenicspottextactivity1"/>
+		    </RelativeLayout>
+		    
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="10dp">
+		       
+		        <TextView 
+		            android:id="@+id/scenicspottextactivity2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="开 放 :"/>
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="08：00-17：00"
+		            android:layout_marginLeft="5dp"
+		            android:layout_toRightOf="@+id/scenicspottextactivity2"/>
+		    </RelativeLayout>
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="10dp">
+		       
+		        <TextView 
+		            android:id="@+id/scenicspottextactivity3"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="地 址 :"/>
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="昆明市石林彝族自治县"
+		            android:layout_marginLeft="5dp"
+		            android:layout_toRightOf="@+id/scenicspottextactivity3"/>
+		    </RelativeLayout>
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        >
+		       
+		        <TextView 
+		            android:id="@+id/scenicspottextactivity4"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerVertical="true"
+		            android:text="评 分 :"/>
+		        <RatingBar  
+		            android:id="@+id/scenicspotratingbaractivity"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		             android:rating="5"
+		             android:layout_centerVertical="true"
+		            style="?android:attr/ratingBarStyleSmall"
+		            android:layout_toRightOf="@+id/scenicspottextactivity4"/>
+		        <TextView 
+		            android:id="@+id/scenicspottextactivity5"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5dp"
+		            android:layout_centerVertical="true"
+		            android:layout_toRightOf="@+id/scenicspotratingbaractivity"
+		            android:text="(4.6分,138人)"/>
+		        
+		        <TextView 
+		            android:id="@+id/scenicspottextactivity6"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerVertical="true"
+		            android:layout_alignParentRight="true"
+		            android:layout_marginRight="10dp"
+		            android:text="我要评分"/>
+		        <ImageView 
+		          	android:id="@+id/scenicspotimageactivity8"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/ic_launcher"
+			        android:layout_toLeftOf="@+id/scenicspottextactivity6" />
+		    </RelativeLayout>
+		    <View android:layout_width="match_parent"
+		        android:layout_height="20dp"
+		        android:layout_marginTop="10dp"
+		        android:background="#D1DDE1" />
+		    
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="10dp">
+		       
+		        <ImageView 
+		            android:id="@+id/scenicspotimageactivity3"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/ic_launcher"/>
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="推荐旅游"
+		            android:textSize="25sp"
+		            android:textColor="#FFC125"
+		            android:layout_centerVertical="true"
+		            android:layout_toRightOf="@+id/scenicspotimageactivity3"
+		            android:layout_marginLeft="5dp"/>
+		    </RelativeLayout>
+		    <View android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:background="#D1DDE1" />
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:lineSpacingExtra="5dp"
+		        android:text="旅游是人在意志空间的行走，通过这样的意志行走，扩大了自身掌控的范围，最后扩大自己心理的能量。"/>
+		    <View android:layout_width="match_parent"
+		        android:layout_height="20dp"
+		        android:layout_marginTop="20dp"
+		        android:background="#D1DDE1" />
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="15dp">
+		       
+		        <ImageView 
+		            android:id="@+id/scenicspotimageactivity4"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/ic_launcher"/>
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="语音导游"
+		            android:textSize="25sp"
+		            android:textColor="#FFC125"
+		            android:layout_centerVertical="true"
+		            android:layout_toRightOf="@+id/scenicspotimageactivity4"
+		            android:layout_marginLeft="5dp"
+		            />
+		        <ImageView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:src="@drawable/ic_launcher"/>
+		    </RelativeLayout>
+		    <View android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:background="#D1DDE1" />
+		    <com.useease.width.MyGridView
+		        android:id="@+id/scenicspotgridviewactivity"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:horizontalSpacing="10dp"
+			    android:verticalSpacing="10dp"
+		        android:numColumns="2" />
+		    
+		    <View android:layout_width="match_parent"
+		        android:layout_height="20dp"
+		        android:layout_marginTop="20dp"
+		        android:background="#D1DDE1" />
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="15dp">
+		       
+		        <ImageView 
+		            android:id="@+id/scenicspotimageactivity5"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/ic_launcher"/>
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="全景图(360观看)"
+		            android:textSize="25sp"
+		            android:textColor="#FFC125"
+		            android:layout_centerVertical="true"
+		            android:layout_toRightOf="@+id/scenicspotimageactivity5"
+		            android:layout_marginLeft="5dp"
+		            />
+		        <ImageView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:src="@drawable/ic_launcher"/>
+		    </RelativeLayout>
+		    <View android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:background="#D1DDE1" />
+		    <ImageView 
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:scaleType="fitXY"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginTop="10dp"
+		            android:layout_marginRight="10dp"
+		            android:src="@drawable/t3"/>
+		    
+		    <View android:layout_width="match_parent"
+		        android:layout_height="20dp"
+		        android:layout_marginTop="20dp"
+		        android:background="#D1DDE1" />
+		    
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="15dp">
+		       
+		        <ImageView 
+		            android:id="@+id/scenicspotimageactivity6"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/ic_launcher"/>
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="位置周边"
+		            android:textSize="25sp"
+		            android:textColor="#FFC125"
+		            android:layout_centerVertical="true"
+		            android:layout_toRightOf="@+id/scenicspotimageactivity6"
+		            android:layout_marginLeft="5dp"
+		            />
+		        <ImageView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:src="@drawable/ic_launcher"/>
+		    </RelativeLayout>
+		    <View android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:background="#D1DDE1" />
+		    <ImageView 
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:scaleType="fitXY"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"
+		            android:layout_marginTop="10dp"
+		            android:src="@drawable/t3"/>
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="10dp">
+		        
+		        <RelativeLayout 
+		        	android:layout_width="match_parent"
+		       		android:layout_height="wrap_content"
+		       		android:layout_weight="1">
+		            <ImageView 
+		                android:id="@+id/tabimage1"
+		                android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:src="@drawable/ic_launcher"/>
+		            <TextView 
+		                 android:id="@+id/tabtext1"
+		                android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:text="附近酒店"
+		            	android:layout_marginLeft="5dp"
+		            	android:layout_toRightOf="@+id/tabimage1"
+		            	/>
+		            <TextView
+		                android:id="@+id/tabtext2" 
+		                android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:text="8"
+		            	android:textColor="#ff0000"
+		            	android:layout_marginLeft="5dp"
+		            	android:layout_toRightOf="@+id/tabimage1"
+		            	android:layout_alignBottom="@+id/tabimage1"
+		            	/>
+		            <TextView
+		                android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:text="家"
+		            	android:layout_toRightOf="@+id/tabtext2"
+		            	android:layout_alignBottom="@+id/tabimage1"
+		            	/>
+		        </RelativeLayout>
+		        
+		        <RelativeLayout 
+		        	android:layout_width="match_parent"
+		       		android:layout_height="wrap_content"
+		       		android:layout_weight="1">
+		            <ImageView 
+		                android:id="@+id/tabimage2"
+		                android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:src="@drawable/ic_launcher"/>
+		            <TextView 
+		                android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:text="附近餐厅"
+		            	android:layout_marginLeft="5dp"
+		            	android:layout_toRightOf="@+id/tabimage2"
+		            	/>
+		            <TextView
+		                android:id="@+id/tabtext3" 
+		                android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:text="3"
+		            	android:textColor="#ff0000"
+		            	android:layout_marginLeft="5dp"
+		            	android:layout_toRightOf="@+id/tabimage2"
+		            	android:layout_alignBottom="@+id/tabimage2"
+		            	/>
+		            <TextView
+		                android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:text="家"
+		            	android:layout_toRightOf="@+id/tabtext3"
+		            	android:layout_alignBottom="@+id/tabimage2"
+		            	/>
+		        </RelativeLayout>
+		        
+		        <RelativeLayout 
+		        	android:layout_width="match_parent"
+		       		android:layout_height="wrap_content"
+		       		android:layout_weight="1">
+		            <ImageView 
+		                android:id="@+id/tabimage3"
+		                android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:src="@drawable/ic_launcher"/>
+		            <TextView 
+		                android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:text="去这里"
+		            	android:layout_marginLeft="5dp"
+		            	android:layout_toRightOf="@+id/tabimage3"
+		            	/>
+		            <TextView
+		                android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:text="2.3Km"
+		            	android:textColor="#ff0000"
+		            	android:layout_marginLeft="5dp"
+		            	android:layout_toRightOf="@+id/tabimage3"
+		            	android:layout_alignBottom="@+id/tabimage3"
+		            	/>
+		           
+		        </RelativeLayout>
+		    </LinearLayout>
+		    
+		    <View android:layout_width="match_parent"
+		        android:layout_height="20dp"
+		        android:layout_marginTop="20dp"
+		        android:background="#D1DDE1" />
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="15dp">
+		       
+		        <ImageView 
+		            android:id="@+id/scenicspotimageactivity7"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/ic_launcher"/>
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="实时人流情况(后期再实现，具体形式再看)"
+		            android:textSize="20sp"
+		            android:textColor="#FFC125"
+		            android:layout_centerVertical="true"
+		            android:layout_toRightOf="@+id/scenicspotimageactivity7"
+		            android:layout_marginLeft="5dp"
+		            />
+		       
+		    </RelativeLayout>
+		    <View android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:background="#D1DDE1" />
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp">
+		        <ImageView 
+		            android:id="@+id/personimage"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/ic_launcher"/>
+		        <TextView 
+		            android:id="@+id/persontext"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="当前:"
+		            android:layout_centerVertical="true"
+		            android:textSize="15dp"
+		            android:layout_alignBottom="@+id/personimage"
+		            android:layout_toRightOf="@+id/personimage"/>
+		        
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="拥挤"
+		            android:textColor="#FFC125"
+		            android:textSize="15dp"
+		            android:layout_alignBottom="@+id/persontext"
+		            android:layout_toRightOf="@+id/persontext"/>
+		    </RelativeLayout>
+		  
+		    
+		    <View android:layout_width="match_parent"
+		        android:layout_height="20dp"
+		        android:layout_marginTop="20dp"
+		        android:background="#D1DDE1" />
+    	</LinearLayout>
+    </ScrollView>"
+</LinearLayout>

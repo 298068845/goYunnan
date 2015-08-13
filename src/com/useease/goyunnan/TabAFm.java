@@ -1,11 +1,14 @@
 package com.useease.goyunnan;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,6 +17,7 @@ import android.view.ViewGroup;
  * Time: 下午2:39
  */
 public class TabAFm extends Fragment{
+	private Button but;
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
@@ -29,7 +33,18 @@ public class TabAFm extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         System.out.println("AAAAAAAAAA____onCreateView");
-        return inflater.inflate(R.layout.tab_a, container, false);
+        View view=inflater.inflate(R.layout.tab_a, container, false);
+        but=(Button) view.findViewById(R.id.button1);
+        but.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				startActivity(new Intent(getActivity(),ScenicSpot.class));
+			}
+		});
+        
+        return view;
     }
 
     @Override
