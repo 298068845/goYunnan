@@ -16,7 +16,8 @@ public void onCreate(Bundle savedInstanceState) {
     actionbar.setTitle("返回");
     actionbar.setDisplayShowTitleEnabled(true);
     actionbar.setDisplayHomeAsUpEnabled(true);
-    actionbar.setCustomView(R.layout.actionbar_d);}
+    actionbar.setCustomView(R.layout.actionbar_d);
+    }
 @Override
 public boolean onOptionsItemSelected(MenuItem item) {
     switch (item.getItemId()) {

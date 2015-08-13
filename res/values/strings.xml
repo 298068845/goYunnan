@@ -33,5 +33,7 @@
     <string name="age">年龄</string>
     <string name="tellphone">电话</string>
     <string name="address">地址</string>
+    <string name="search_result">搜索结果</string>
+    <string name="search_hint">输入搜索内容</string>
 
 </resources>
